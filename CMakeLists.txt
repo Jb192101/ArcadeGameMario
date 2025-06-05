@@ -8,6 +8,7 @@ project(fltk-test-app)
 
 # Specify the source files for the project
 set(SOURCES main.cpp
+controller/AboutController.cpp
 controller/GameController.cpp
 controller/MenuController.cpp
 model/Coin.cpp
@@ -16,6 +17,7 @@ model/GameModel.cpp
 model/GameObject.cpp
 model/Platform.cpp
 model/Player.cpp
+view/AboutWindow.cpp
 view/GameView.cpp
 view/MenuView.cpp
 )

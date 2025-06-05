@@ -1,0 +1,1 @@
+ C:/msys64/ucrt64/lib/libfltk_images.dll.a C:/msys64/ucrt64/lib/libfltk_forms.dll.a C:/msys64/ucrt64/lib/libfltk_gl.dll.a -lopengl32 C:/msys64/ucrt64/lib/libfltk.dll.a -lwsock32 -lcomctl32 -lcomctl32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

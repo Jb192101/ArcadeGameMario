@@ -85,10 +85,24 @@ CMakeFiles/fltk-test-app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fltk-test-app.dir/main.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Programming\Mario\main.cpp -o CMakeFiles\fltk-test-app.dir\main.cpp.s
 
+CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.obj: CMakeFiles/fltk-test-app.dir/flags.make
+CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.obj: C:/Programming/Mario/controller/AboutController.cpp
+CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.obj: CMakeFiles/fltk-test-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.obj -MF CMakeFiles\fltk-test-app.dir\controller\AboutController.cpp.obj.d -o CMakeFiles\fltk-test-app.dir\controller\AboutController.cpp.obj -c C:\Programming\Mario\controller\AboutController.cpp
+
+CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Programming\Mario\controller\AboutController.cpp > CMakeFiles\fltk-test-app.dir\controller\AboutController.cpp.i
+
+CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Programming\Mario\controller\AboutController.cpp -o CMakeFiles\fltk-test-app.dir\controller\AboutController.cpp.s
+
 CMakeFiles/fltk-test-app.dir/controller/GameController.cpp.obj: CMakeFiles/fltk-test-app.dir/flags.make
 CMakeFiles/fltk-test-app.dir/controller/GameController.cpp.obj: C:/Programming/Mario/controller/GameController.cpp
 CMakeFiles/fltk-test-app.dir/controller/GameController.cpp.obj: CMakeFiles/fltk-test-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fltk-test-app.dir/controller/GameController.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fltk-test-app.dir/controller/GameController.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fltk-test-app.dir/controller/GameController.cpp.obj -MF CMakeFiles\fltk-test-app.dir\controller\GameController.cpp.obj.d -o CMakeFiles\fltk-test-app.dir\controller\GameController.cpp.obj -c C:\Programming\Mario\controller\GameController.cpp
 
 CMakeFiles/fltk-test-app.dir/controller/GameController.cpp.i: cmake_force
@@ -102,7 +116,7 @@ CMakeFiles/fltk-test-app.dir/controller/GameController.cpp.s: cmake_force
 CMakeFiles/fltk-test-app.dir/controller/MenuController.cpp.obj: CMakeFiles/fltk-test-app.dir/flags.make
 CMakeFiles/fltk-test-app.dir/controller/MenuController.cpp.obj: C:/Programming/Mario/controller/MenuController.cpp
 CMakeFiles/fltk-test-app.dir/controller/MenuController.cpp.obj: CMakeFiles/fltk-test-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fltk-test-app.dir/controller/MenuController.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fltk-test-app.dir/controller/MenuController.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fltk-test-app.dir/controller/MenuController.cpp.obj -MF CMakeFiles\fltk-test-app.dir\controller\MenuController.cpp.obj.d -o CMakeFiles\fltk-test-app.dir\controller\MenuController.cpp.obj -c C:\Programming\Mario\controller\MenuController.cpp
 
 CMakeFiles/fltk-test-app.dir/controller/MenuController.cpp.i: cmake_force
@@ -116,7 +130,7 @@ CMakeFiles/fltk-test-app.dir/controller/MenuController.cpp.s: cmake_force
 CMakeFiles/fltk-test-app.dir/model/Coin.cpp.obj: CMakeFiles/fltk-test-app.dir/flags.make
 CMakeFiles/fltk-test-app.dir/model/Coin.cpp.obj: C:/Programming/Mario/model/Coin.cpp
 CMakeFiles/fltk-test-app.dir/model/Coin.cpp.obj: CMakeFiles/fltk-test-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fltk-test-app.dir/model/Coin.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fltk-test-app.dir/model/Coin.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fltk-test-app.dir/model/Coin.cpp.obj -MF CMakeFiles\fltk-test-app.dir\model\Coin.cpp.obj.d -o CMakeFiles\fltk-test-app.dir\model\Coin.cpp.obj -c C:\Programming\Mario\model\Coin.cpp
 
 CMakeFiles/fltk-test-app.dir/model/Coin.cpp.i: cmake_force
@@ -130,7 +144,7 @@ CMakeFiles/fltk-test-app.dir/model/Coin.cpp.s: cmake_force
 CMakeFiles/fltk-test-app.dir/model/Enemy.cpp.obj: CMakeFiles/fltk-test-app.dir/flags.make
 CMakeFiles/fltk-test-app.dir/model/Enemy.cpp.obj: C:/Programming/Mario/model/Enemy.cpp
 CMakeFiles/fltk-test-app.dir/model/Enemy.cpp.obj: CMakeFiles/fltk-test-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fltk-test-app.dir/model/Enemy.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/fltk-test-app.dir/model/Enemy.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fltk-test-app.dir/model/Enemy.cpp.obj -MF CMakeFiles\fltk-test-app.dir\model\Enemy.cpp.obj.d -o CMakeFiles\fltk-test-app.dir\model\Enemy.cpp.obj -c C:\Programming\Mario\model\Enemy.cpp
 
 CMakeFiles/fltk-test-app.dir/model/Enemy.cpp.i: cmake_force
@@ -144,7 +158,7 @@ CMakeFiles/fltk-test-app.dir/model/Enemy.cpp.s: cmake_force
 CMakeFiles/fltk-test-app.dir/model/GameModel.cpp.obj: CMakeFiles/fltk-test-app.dir/flags.make
 CMakeFiles/fltk-test-app.dir/model/GameModel.cpp.obj: C:/Programming/Mario/model/GameModel.cpp
 CMakeFiles/fltk-test-app.dir/model/GameModel.cpp.obj: CMakeFiles/fltk-test-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/fltk-test-app.dir/model/GameModel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/fltk-test-app.dir/model/GameModel.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fltk-test-app.dir/model/GameModel.cpp.obj -MF CMakeFiles\fltk-test-app.dir\model\GameModel.cpp.obj.d -o CMakeFiles\fltk-test-app.dir\model\GameModel.cpp.obj -c C:\Programming\Mario\model\GameModel.cpp
 
 CMakeFiles/fltk-test-app.dir/model/GameModel.cpp.i: cmake_force
@@ -158,7 +172,7 @@ CMakeFiles/fltk-test-app.dir/model/GameModel.cpp.s: cmake_force
 CMakeFiles/fltk-test-app.dir/model/GameObject.cpp.obj: CMakeFiles/fltk-test-app.dir/flags.make
 CMakeFiles/fltk-test-app.dir/model/GameObject.cpp.obj: C:/Programming/Mario/model/GameObject.cpp
 CMakeFiles/fltk-test-app.dir/model/GameObject.cpp.obj: CMakeFiles/fltk-test-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/fltk-test-app.dir/model/GameObject.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/fltk-test-app.dir/model/GameObject.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fltk-test-app.dir/model/GameObject.cpp.obj -MF CMakeFiles\fltk-test-app.dir\model\GameObject.cpp.obj.d -o CMakeFiles\fltk-test-app.dir\model\GameObject.cpp.obj -c C:\Programming\Mario\model\GameObject.cpp
 
 CMakeFiles/fltk-test-app.dir/model/GameObject.cpp.i: cmake_force
@@ -172,7 +186,7 @@ CMakeFiles/fltk-test-app.dir/model/GameObject.cpp.s: cmake_force
 CMakeFiles/fltk-test-app.dir/model/Platform.cpp.obj: CMakeFiles/fltk-test-app.dir/flags.make
 CMakeFiles/fltk-test-app.dir/model/Platform.cpp.obj: C:/Programming/Mario/model/Platform.cpp
 CMakeFiles/fltk-test-app.dir/model/Platform.cpp.obj: CMakeFiles/fltk-test-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/fltk-test-app.dir/model/Platform.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/fltk-test-app.dir/model/Platform.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fltk-test-app.dir/model/Platform.cpp.obj -MF CMakeFiles\fltk-test-app.dir\model\Platform.cpp.obj.d -o CMakeFiles\fltk-test-app.dir\model\Platform.cpp.obj -c C:\Programming\Mario\model\Platform.cpp
 
 CMakeFiles/fltk-test-app.dir/model/Platform.cpp.i: cmake_force
@@ -186,7 +200,7 @@ CMakeFiles/fltk-test-app.dir/model/Platform.cpp.s: cmake_force
 CMakeFiles/fltk-test-app.dir/model/Player.cpp.obj: CMakeFiles/fltk-test-app.dir/flags.make
 CMakeFiles/fltk-test-app.dir/model/Player.cpp.obj: C:/Programming/Mario/model/Player.cpp
 CMakeFiles/fltk-test-app.dir/model/Player.cpp.obj: CMakeFiles/fltk-test-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/fltk-test-app.dir/model/Player.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/fltk-test-app.dir/model/Player.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fltk-test-app.dir/model/Player.cpp.obj -MF CMakeFiles\fltk-test-app.dir\model\Player.cpp.obj.d -o CMakeFiles\fltk-test-app.dir\model\Player.cpp.obj -c C:\Programming\Mario\model\Player.cpp
 
 CMakeFiles/fltk-test-app.dir/model/Player.cpp.i: cmake_force
@@ -197,10 +211,24 @@ CMakeFiles/fltk-test-app.dir/model/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fltk-test-app.dir/model/Player.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Programming\Mario\model\Player.cpp -o CMakeFiles\fltk-test-app.dir\model\Player.cpp.s
 
+CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.obj: CMakeFiles/fltk-test-app.dir/flags.make
+CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.obj: C:/Programming/Mario/view/AboutWindow.cpp
+CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.obj: CMakeFiles/fltk-test-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.obj -MF CMakeFiles\fltk-test-app.dir\view\AboutWindow.cpp.obj.d -o CMakeFiles\fltk-test-app.dir\view\AboutWindow.cpp.obj -c C:\Programming\Mario\view\AboutWindow.cpp
+
+CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Programming\Mario\view\AboutWindow.cpp > CMakeFiles\fltk-test-app.dir\view\AboutWindow.cpp.i
+
+CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Programming\Mario\view\AboutWindow.cpp -o CMakeFiles\fltk-test-app.dir\view\AboutWindow.cpp.s
+
 CMakeFiles/fltk-test-app.dir/view/GameView.cpp.obj: CMakeFiles/fltk-test-app.dir/flags.make
 CMakeFiles/fltk-test-app.dir/view/GameView.cpp.obj: C:/Programming/Mario/view/GameView.cpp
 CMakeFiles/fltk-test-app.dir/view/GameView.cpp.obj: CMakeFiles/fltk-test-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/fltk-test-app.dir/view/GameView.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/fltk-test-app.dir/view/GameView.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fltk-test-app.dir/view/GameView.cpp.obj -MF CMakeFiles\fltk-test-app.dir\view\GameView.cpp.obj.d -o CMakeFiles\fltk-test-app.dir\view\GameView.cpp.obj -c C:\Programming\Mario\view\GameView.cpp
 
 CMakeFiles/fltk-test-app.dir/view/GameView.cpp.i: cmake_force
@@ -214,7 +242,7 @@ CMakeFiles/fltk-test-app.dir/view/GameView.cpp.s: cmake_force
 CMakeFiles/fltk-test-app.dir/view/MenuView.cpp.obj: CMakeFiles/fltk-test-app.dir/flags.make
 CMakeFiles/fltk-test-app.dir/view/MenuView.cpp.obj: C:/Programming/Mario/view/MenuView.cpp
 CMakeFiles/fltk-test-app.dir/view/MenuView.cpp.obj: CMakeFiles/fltk-test-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/fltk-test-app.dir/view/MenuView.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/fltk-test-app.dir/view/MenuView.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fltk-test-app.dir/view/MenuView.cpp.obj -MF CMakeFiles\fltk-test-app.dir\view\MenuView.cpp.obj.d -o CMakeFiles\fltk-test-app.dir\view\MenuView.cpp.obj -c C:\Programming\Mario\view\MenuView.cpp
 
 CMakeFiles/fltk-test-app.dir/view/MenuView.cpp.i: cmake_force
@@ -228,6 +256,7 @@ CMakeFiles/fltk-test-app.dir/view/MenuView.cpp.s: cmake_force
 # Object files for target fltk-test-app
 fltk__test__app_OBJECTS = \
 "CMakeFiles/fltk-test-app.dir/main.cpp.obj" \
+"CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.obj" \
 "CMakeFiles/fltk-test-app.dir/controller/GameController.cpp.obj" \
 "CMakeFiles/fltk-test-app.dir/controller/MenuController.cpp.obj" \
 "CMakeFiles/fltk-test-app.dir/model/Coin.cpp.obj" \
@@ -236,6 +265,7 @@ fltk__test__app_OBJECTS = \
 "CMakeFiles/fltk-test-app.dir/model/GameObject.cpp.obj" \
 "CMakeFiles/fltk-test-app.dir/model/Platform.cpp.obj" \
 "CMakeFiles/fltk-test-app.dir/model/Player.cpp.obj" \
+"CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.obj" \
 "CMakeFiles/fltk-test-app.dir/view/GameView.cpp.obj" \
 "CMakeFiles/fltk-test-app.dir/view/MenuView.cpp.obj"
 
@@ -243,6 +273,7 @@ fltk__test__app_OBJECTS = \
 fltk__test__app_EXTERNAL_OBJECTS =
 
 fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/main.cpp.obj
+fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.obj
 fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/controller/GameController.cpp.obj
 fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/controller/MenuController.cpp.obj
 fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/model/Coin.cpp.obj
@@ -251,6 +282,7 @@ fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/model/GameModel.cpp.obj
 fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/model/GameObject.cpp.obj
 fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/model/Platform.cpp.obj
 fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/model/Player.cpp.obj
+fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.obj
 fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/view/GameView.cpp.obj
 fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/view/MenuView.cpp.obj
 fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/build.make
@@ -261,7 +293,7 @@ fltk-test-app.exe: C:/msys64/ucrt64/lib/libfltk.dll.a
 fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/linkLibs.rsp
 fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/objects1.rsp
 fltk-test-app.exe: CMakeFiles/fltk-test-app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable fltk-test-app.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Programming\Mario\out\build\GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable fltk-test-app.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fltk-test-app.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

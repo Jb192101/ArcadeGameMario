@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.obj"
+  "CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.obj.d"
   "CMakeFiles/fltk-test-app.dir/controller/GameController.cpp.obj"
   "CMakeFiles/fltk-test-app.dir/controller/GameController.cpp.obj.d"
   "CMakeFiles/fltk-test-app.dir/controller/MenuController.cpp.obj"
@@ -17,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/fltk-test-app.dir/model/Platform.cpp.obj.d"
   "CMakeFiles/fltk-test-app.dir/model/Player.cpp.obj"
   "CMakeFiles/fltk-test-app.dir/model/Player.cpp.obj.d"
+  "CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.obj"
+  "CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.obj.d"
   "CMakeFiles/fltk-test-app.dir/view/GameView.cpp.obj"
   "CMakeFiles/fltk-test-app.dir/view/GameView.cpp.obj.d"
   "CMakeFiles/fltk-test-app.dir/view/MenuView.cpp.obj"

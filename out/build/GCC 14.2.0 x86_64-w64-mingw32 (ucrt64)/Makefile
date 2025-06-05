@@ -128,6 +128,30 @@ fltk-test-app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fltk-test-app.dir\build.make CMakeFiles/fltk-test-app.dir/build
 .PHONY : fltk-test-app/fast
 
+controller/AboutController.obj: controller/AboutController.cpp.obj
+.PHONY : controller/AboutController.obj
+
+# target to build an object file
+controller/AboutController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fltk-test-app.dir\build.make CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.obj
+.PHONY : controller/AboutController.cpp.obj
+
+controller/AboutController.i: controller/AboutController.cpp.i
+.PHONY : controller/AboutController.i
+
+# target to preprocess a source file
+controller/AboutController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fltk-test-app.dir\build.make CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.i
+.PHONY : controller/AboutController.cpp.i
+
+controller/AboutController.s: controller/AboutController.cpp.s
+.PHONY : controller/AboutController.s
+
+# target to generate assembly for a file
+controller/AboutController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fltk-test-app.dir\build.make CMakeFiles/fltk-test-app.dir/controller/AboutController.cpp.s
+.PHONY : controller/AboutController.cpp.s
+
 controller/GameController.obj: controller/GameController.cpp.obj
 .PHONY : controller/GameController.obj
 
@@ -344,6 +368,30 @@ model/Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fltk-test-app.dir\build.make CMakeFiles/fltk-test-app.dir/model/Player.cpp.s
 .PHONY : model/Player.cpp.s
 
+view/AboutWindow.obj: view/AboutWindow.cpp.obj
+.PHONY : view/AboutWindow.obj
+
+# target to build an object file
+view/AboutWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fltk-test-app.dir\build.make CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.obj
+.PHONY : view/AboutWindow.cpp.obj
+
+view/AboutWindow.i: view/AboutWindow.cpp.i
+.PHONY : view/AboutWindow.i
+
+# target to preprocess a source file
+view/AboutWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fltk-test-app.dir\build.make CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.i
+.PHONY : view/AboutWindow.cpp.i
+
+view/AboutWindow.s: view/AboutWindow.cpp.s
+.PHONY : view/AboutWindow.s
+
+# target to generate assembly for a file
+view/AboutWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fltk-test-app.dir\build.make CMakeFiles/fltk-test-app.dir/view/AboutWindow.cpp.s
+.PHONY : view/AboutWindow.cpp.s
+
 view/GameView.obj: view/GameView.cpp.obj
 .PHONY : view/GameView.obj
 
@@ -401,6 +449,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... fltk-test-app
+	@echo ... controller/AboutController.obj
+	@echo ... controller/AboutController.i
+	@echo ... controller/AboutController.s
 	@echo ... controller/GameController.obj
 	@echo ... controller/GameController.i
 	@echo ... controller/GameController.s
@@ -428,6 +479,9 @@ help:
 	@echo ... model/Player.obj
 	@echo ... model/Player.i
 	@echo ... model/Player.s
+	@echo ... view/AboutWindow.obj
+	@echo ... view/AboutWindow.i
+	@echo ... view/AboutWindow.s
 	@echo ... view/GameView.obj
 	@echo ... view/GameView.i
 	@echo ... view/GameView.s

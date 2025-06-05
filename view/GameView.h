@@ -5,7 +5,6 @@
 #include <FL/Fl.H>
 #include "../model/GameModel.h"
 #include "../controller/GameController.h"
-#include <iostream>
 
 class GameView : public Fl_Double_Window {
 private:
