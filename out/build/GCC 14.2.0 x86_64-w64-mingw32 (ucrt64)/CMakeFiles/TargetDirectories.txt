@@ -1,3 +1,0 @@
-C:/Programming/Mario/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/CMakeFiles/fltk-test-app.dir
-C:/Programming/Mario/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/CMakeFiles/edit_cache.dir
-C:/Programming/Mario/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/CMakeFiles/rebuild_cache.dir
